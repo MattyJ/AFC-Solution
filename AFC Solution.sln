@@ -1,0 +1,459 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{938FBA2D-45BC-41F2-BC6E-475EA6224E3F}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{C02449F8-CCDE-4D27-84CD-E4743FE5F56D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Framework", "Framework", "{4B5AAD39-DE3E-4FE5-87BB-2A111AE23E75}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{E1C795BF-6369-42EF-9498-B3860DED79C6}"
+	ProjectSection(SolutionItems) = preProject
+		CodeCoverage.runsettings = CodeCoverage.runsettings
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Assets", "Assets", "{B16F67E5-E451-409E-9392-2F092AE75EFF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{E3B6D81A-C5C3-454E-AE1E-5872DA1259D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fujitsu.AFC.Data", "Fujitsu.AFC.Data\Fujitsu.AFC.Data.csproj", "{287A6D79-194A-4ED9-90B0-14629080D5E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fujitsu.AFC.Model", "Fujitsu.AFC.Model\Fujitsu.AFC.Model.csproj", "{212F28C8-4E4B-4DE1-A572-0980C45D334B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fujitsu.AFC.Core", "Fujitsu.AFC.Core\Fujitsu.AFC.Core.csproj", "{F3DFB331-7830-4C80-8D72-8996B2524031}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fujitsu.AFC.Constants", "Fujitsu.AFC.Constants\Fujitsu.AFC.Constants.csproj", "{44D95CCE-76F2-4D17-AC3F-6A52207CDBDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fujitsu.AFC.Enumerations", "Fujitsu.AFC.Enumerations\Fujitsu.AFC.Enumerations.csproj", "{26752540-B6C5-41BE-99A9-23EA3DB6D05B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fujitsu.AFC.UnitTesting", "Fujitsu.AFC.UnitTesting\Fujitsu.AFC.UnitTesting.csproj", "{FF630140-8B3D-496A-B6ED-BCFC618A34CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fujitsu.AFC.Extensions", "Fujitsu.AFC.Extensions\Fujitsu.AFC.Extensions.csproj", "{4CDDBFEF-CF47-4EE3-B8F1-FB11CD94D412}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fujitsu.Exceptions.Framework", "Fujitsu.Exceptions.Framework\Fujitsu.Exceptions.Framework.csproj", "{66D72D78-84B2-47F4-A702-24CDF11F2D0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fujitsu.Exceptions.Framework.Tests", "Fujitsu.Exceptions.Framework.Tests\Fujitsu.Exceptions.Framework.Tests.csproj", "{7B5549AC-2CF6-4362-A947-D0E011CB1353}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fujitsu.AFC.Core.Tests", "Fujitsu.AFC.Core.Tests\Fujitsu.AFC.Core.Tests.csproj", "{79D0E9A8-555C-4FEA-9804-3F8C9C6C8DF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fujitsu.AFC.Extenstion.Tests", "Fujitsu.AFC.Extenstion.Tests\Fujitsu.AFC.Extenstion.Tests.csproj", "{20ECC572-F1FC-452A-98E0-D49B4B0A132B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tasks", "Tasks", "{53AEF767-564F-4BB7-B2FC-806A5872FBDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fujitsu.AFC.Windows.Context", "Fujitsu.AFC.Windows.Context\Fujitsu.AFC.Windows.Context.csproj", "{66337F4B-436C-4988-8A00-7D92500E10C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fujitsu.AFC.Tasks", "Fujitsu.AFC.Tasks\Fujitsu.AFC.Tasks.csproj", "{0C7290E1-717B-4143-A63D-879F666B07C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fujitsu.AFC.Tasks.Tests", "Fujitsu.AFC.Tasks.Tests\Fujitsu.AFC.Tasks.Tests.csproj", "{F3DA41B0-0B41-4CD5-9C34-8B28EBDB977B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Operations", "Operations", "{F30956D3-BD27-4C99-AE98-4924FFCE846D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Support", "Support", "{04D15426-6F5A-4F89-A10A-65CDEC16CF76}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Provisioning", "Provisioning", "{9B9BB659-DBC1-45FC-A36A-571A7161A63C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fujitsu.AFC.Tasks.Console", "Fujitsu.AFC.Tasks.Console\Fujitsu.AFC.Tasks.Console.csproj", "{01E44BAD-574D-42A4-9F59-0B4E2AE905DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fujitsu.AFC.Services", "Fujitsu.AFC.Services\Fujitsu.AFC.Services.csproj", "{7F1B1A3D-1F02-4A68-9ACB-B9609BA02FE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fujitsu.AFC.Services.Tests", "Fujitsu.AFC.Services.Tests\Fujitsu.AFC.Services.Tests.csproj", "{6A71A923-DE2A-44E5-9406-E65D05F87024}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fujitsu.AFC.Operations", "Fujitsu.AFC.Operations\Fujitsu.AFC.Operations.csproj", "{D8F9BC40-1518-4341-A3B0-508EBAA1F540}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fujitsu.AFC.Support", "Fujitsu.AFC.Support\Fujitsu.AFC.Support.csproj", "{8D9D81D8-238B-49BE-8DA0-2D06B000FA69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fujitsu.AFC.Provisioning", "Fujitsu.AFC.Provisioning\Fujitsu.AFC.Provisioning.csproj", "{C233BF12-0D6D-49CF-92EE-39E84D03800E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fujitsu.AFC.Operations.Tests", "Fujitsu.AFC.Operations.Tests\Fujitsu.AFC.Operations.Tests.csproj", "{C9FF9376-D992-4079-A7EC-BB3CF0827EB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fujitsu.AFC.Provisioning.Tests", "Fujitsu.AFC.Provisioning.Tests\Fujitsu.AFC.Provisioning.Tests.csproj", "{F581EFBF-8BEC-4C7B-B919-F1B35D28C2D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fujitsu.AFC.Support.Tests", "Fujitsu.AFC.Support.Tests\Fujitsu.AFC.Support.Tests.csproj", "{9E4DB995-FE05-48CB-8F51-3B032D5B7DC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fujitsu.AFC.Windows.Context.Tests", "Fujitsu.AFC.Windows.Context.Tests\Fujitsu.AFC.Windows.Context.Tests.csproj", "{7D8796FD-343E-4ED9-BEF3-CC726642F7B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fujitsu.AFC.Data.Tests", "Fujitsu.AFC.Data.Tests\Fujitsu.AFC.Data.Tests.csproj", "{F2C9CDC1-B49B-4442-A994-60276BA834EC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Windows Services", "Windows Services", "{00791E87-5B7B-4091-AF59-9C0C9E4854EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fujitsu.AFC.Operations.WindowsService", "Fujitsu.AFC.Operations.WindowsService\Fujitsu.AFC.Operations.WindowsService.csproj", "{3200B4CF-2109-44AA-8524-7C26ACB06D02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fujitsu.AFC.Support.WindowsService", "Fujitsu.AFC.Support.WindowsService\Fujitsu.AFC.Support.WindowsService.csproj", "{7BCFA541-C1B6-4CF7-AD88-80F3B2A0641D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fujitsu.AFC.Provisioning.WindowsService", "Fujitsu.AFC.Provisioning.WindowsService\Fujitsu.AFC.Provisioning.WindowsService.csproj", "{ACE75C9F-52F1-4C4F-BAF1-73A15DCC47E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fujitsu.AFC.Tasks.Resources", "Fujitsu.AFC.Tasks.Resources\Fujitsu.AFC.Tasks.Resources.csproj", "{5C9E6EB5-BDD4-4229-82E5-624F3CC7C73E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{13494BDB-A35A-48AC-BB9D-2CA3A4532B21}"
+	ProjectSection(SolutionItems) = preProject
+		Test\Stubbed Stored Procedures Test Matrix V1.xlsx = Test\Stubbed Stored Procedures Test Matrix V1.xlsx
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQL Scripts", "SQL Scripts", "{2CBC2528-AABA-4E37-9615-C33CB6A7A1AF}"
+	ProjectSection(SolutionItems) = preProject
+		Test\SQL Scripts\Stubbed_Interface_Stored_Procedures.sql = Test\SQL Scripts\Stubbed_Interface_Stored_Procedures.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Powershell Scripts", "Powershell Scripts", "{45AAABBC-28AB-44DE-9425-81B1147E72D6}"
+	ProjectSection(SolutionItems) = preProject
+		Test\Powershell Scripts\DeleteSitesFromRecycleBin.ps1 = Test\Powershell Scripts\DeleteSitesFromRecycleBin.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Deployment", "Deployment", "{4869E695-89B3-4201-B1CD-AFF66DF86267}"
+	ProjectSection(SolutionItems) = preProject
+		Deployment\CreateEventSource.ps1 = Deployment\CreateEventSource.ps1
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		SystemTest|Any CPU = SystemTest|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{287A6D79-194A-4ED9-90B0-14629080D5E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{287A6D79-194A-4ED9-90B0-14629080D5E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{287A6D79-194A-4ED9-90B0-14629080D5E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{287A6D79-194A-4ED9-90B0-14629080D5E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{287A6D79-194A-4ED9-90B0-14629080D5E3}.SystemTest|Any CPU.ActiveCfg = Release|Any CPU
+		{287A6D79-194A-4ED9-90B0-14629080D5E3}.SystemTest|Any CPU.Build.0 = Release|Any CPU
+		{212F28C8-4E4B-4DE1-A572-0980C45D334B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{212F28C8-4E4B-4DE1-A572-0980C45D334B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{212F28C8-4E4B-4DE1-A572-0980C45D334B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{212F28C8-4E4B-4DE1-A572-0980C45D334B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{212F28C8-4E4B-4DE1-A572-0980C45D334B}.SystemTest|Any CPU.ActiveCfg = Release|Any CPU
+		{212F28C8-4E4B-4DE1-A572-0980C45D334B}.SystemTest|Any CPU.Build.0 = Release|Any CPU
+		{F3DFB331-7830-4C80-8D72-8996B2524031}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3DFB331-7830-4C80-8D72-8996B2524031}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3DFB331-7830-4C80-8D72-8996B2524031}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3DFB331-7830-4C80-8D72-8996B2524031}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3DFB331-7830-4C80-8D72-8996B2524031}.SystemTest|Any CPU.ActiveCfg = Release|Any CPU
+		{F3DFB331-7830-4C80-8D72-8996B2524031}.SystemTest|Any CPU.Build.0 = Release|Any CPU
+		{44D95CCE-76F2-4D17-AC3F-6A52207CDBDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44D95CCE-76F2-4D17-AC3F-6A52207CDBDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44D95CCE-76F2-4D17-AC3F-6A52207CDBDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44D95CCE-76F2-4D17-AC3F-6A52207CDBDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44D95CCE-76F2-4D17-AC3F-6A52207CDBDB}.SystemTest|Any CPU.ActiveCfg = Release|Any CPU
+		{44D95CCE-76F2-4D17-AC3F-6A52207CDBDB}.SystemTest|Any CPU.Build.0 = Release|Any CPU
+		{26752540-B6C5-41BE-99A9-23EA3DB6D05B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26752540-B6C5-41BE-99A9-23EA3DB6D05B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26752540-B6C5-41BE-99A9-23EA3DB6D05B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26752540-B6C5-41BE-99A9-23EA3DB6D05B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26752540-B6C5-41BE-99A9-23EA3DB6D05B}.SystemTest|Any CPU.ActiveCfg = Release|Any CPU
+		{26752540-B6C5-41BE-99A9-23EA3DB6D05B}.SystemTest|Any CPU.Build.0 = Release|Any CPU
+		{FF630140-8B3D-496A-B6ED-BCFC618A34CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF630140-8B3D-496A-B6ED-BCFC618A34CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF630140-8B3D-496A-B6ED-BCFC618A34CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF630140-8B3D-496A-B6ED-BCFC618A34CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF630140-8B3D-496A-B6ED-BCFC618A34CA}.SystemTest|Any CPU.ActiveCfg = Release|Any CPU
+		{FF630140-8B3D-496A-B6ED-BCFC618A34CA}.SystemTest|Any CPU.Build.0 = Release|Any CPU
+		{4CDDBFEF-CF47-4EE3-B8F1-FB11CD94D412}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CDDBFEF-CF47-4EE3-B8F1-FB11CD94D412}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CDDBFEF-CF47-4EE3-B8F1-FB11CD94D412}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CDDBFEF-CF47-4EE3-B8F1-FB11CD94D412}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CDDBFEF-CF47-4EE3-B8F1-FB11CD94D412}.SystemTest|Any CPU.ActiveCfg = Release|Any CPU
+		{4CDDBFEF-CF47-4EE3-B8F1-FB11CD94D412}.SystemTest|Any CPU.Build.0 = Release|Any CPU
+		{66D72D78-84B2-47F4-A702-24CDF11F2D0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66D72D78-84B2-47F4-A702-24CDF11F2D0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66D72D78-84B2-47F4-A702-24CDF11F2D0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66D72D78-84B2-47F4-A702-24CDF11F2D0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66D72D78-84B2-47F4-A702-24CDF11F2D0E}.SystemTest|Any CPU.ActiveCfg = Release|Any CPU
+		{66D72D78-84B2-47F4-A702-24CDF11F2D0E}.SystemTest|Any CPU.Build.0 = Release|Any CPU
+		{7B5549AC-2CF6-4362-A947-D0E011CB1353}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B5549AC-2CF6-4362-A947-D0E011CB1353}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B5549AC-2CF6-4362-A947-D0E011CB1353}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B5549AC-2CF6-4362-A947-D0E011CB1353}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B5549AC-2CF6-4362-A947-D0E011CB1353}.SystemTest|Any CPU.ActiveCfg = SystemTest|Any CPU
+		{7B5549AC-2CF6-4362-A947-D0E011CB1353}.SystemTest|Any CPU.Build.0 = SystemTest|Any CPU
+		{79D0E9A8-555C-4FEA-9804-3F8C9C6C8DF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79D0E9A8-555C-4FEA-9804-3F8C9C6C8DF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79D0E9A8-555C-4FEA-9804-3F8C9C6C8DF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79D0E9A8-555C-4FEA-9804-3F8C9C6C8DF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79D0E9A8-555C-4FEA-9804-3F8C9C6C8DF7}.SystemTest|Any CPU.ActiveCfg = Release|Any CPU
+		{79D0E9A8-555C-4FEA-9804-3F8C9C6C8DF7}.SystemTest|Any CPU.Build.0 = Release|Any CPU
+		{20ECC572-F1FC-452A-98E0-D49B4B0A132B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20ECC572-F1FC-452A-98E0-D49B4B0A132B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20ECC572-F1FC-452A-98E0-D49B4B0A132B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20ECC572-F1FC-452A-98E0-D49B4B0A132B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20ECC572-F1FC-452A-98E0-D49B4B0A132B}.SystemTest|Any CPU.ActiveCfg = Release|Any CPU
+		{20ECC572-F1FC-452A-98E0-D49B4B0A132B}.SystemTest|Any CPU.Build.0 = Release|Any CPU
+		{66337F4B-436C-4988-8A00-7D92500E10C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66337F4B-436C-4988-8A00-7D92500E10C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66337F4B-436C-4988-8A00-7D92500E10C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66337F4B-436C-4988-8A00-7D92500E10C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66337F4B-436C-4988-8A00-7D92500E10C8}.SystemTest|Any CPU.ActiveCfg = Release|Any CPU
+		{66337F4B-436C-4988-8A00-7D92500E10C8}.SystemTest|Any CPU.Build.0 = Release|Any CPU
+		{0C7290E1-717B-4143-A63D-879F666B07C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C7290E1-717B-4143-A63D-879F666B07C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C7290E1-717B-4143-A63D-879F666B07C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C7290E1-717B-4143-A63D-879F666B07C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C7290E1-717B-4143-A63D-879F666B07C7}.SystemTest|Any CPU.ActiveCfg = Release|Any CPU
+		{0C7290E1-717B-4143-A63D-879F666B07C7}.SystemTest|Any CPU.Build.0 = Release|Any CPU
+		{F3DA41B0-0B41-4CD5-9C34-8B28EBDB977B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3DA41B0-0B41-4CD5-9C34-8B28EBDB977B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3DA41B0-0B41-4CD5-9C34-8B28EBDB977B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3DA41B0-0B41-4CD5-9C34-8B28EBDB977B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3DA41B0-0B41-4CD5-9C34-8B28EBDB977B}.SystemTest|Any CPU.ActiveCfg = Release|Any CPU
+		{F3DA41B0-0B41-4CD5-9C34-8B28EBDB977B}.SystemTest|Any CPU.Build.0 = Release|Any CPU
+		{01E44BAD-574D-42A4-9F59-0B4E2AE905DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01E44BAD-574D-42A4-9F59-0B4E2AE905DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01E44BAD-574D-42A4-9F59-0B4E2AE905DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01E44BAD-574D-42A4-9F59-0B4E2AE905DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01E44BAD-574D-42A4-9F59-0B4E2AE905DA}.SystemTest|Any CPU.ActiveCfg = Release|Any CPU
+		{01E44BAD-574D-42A4-9F59-0B4E2AE905DA}.SystemTest|Any CPU.Build.0 = Release|Any CPU
+		{7F1B1A3D-1F02-4A68-9ACB-B9609BA02FE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F1B1A3D-1F02-4A68-9ACB-B9609BA02FE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F1B1A3D-1F02-4A68-9ACB-B9609BA02FE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F1B1A3D-1F02-4A68-9ACB-B9609BA02FE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F1B1A3D-1F02-4A68-9ACB-B9609BA02FE2}.SystemTest|Any CPU.ActiveCfg = Release|Any CPU
+		{7F1B1A3D-1F02-4A68-9ACB-B9609BA02FE2}.SystemTest|Any CPU.Build.0 = Release|Any CPU
+		{6A71A923-DE2A-44E5-9406-E65D05F87024}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A71A923-DE2A-44E5-9406-E65D05F87024}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A71A923-DE2A-44E5-9406-E65D05F87024}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A71A923-DE2A-44E5-9406-E65D05F87024}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A71A923-DE2A-44E5-9406-E65D05F87024}.SystemTest|Any CPU.ActiveCfg = Release|Any CPU
+		{6A71A923-DE2A-44E5-9406-E65D05F87024}.SystemTest|Any CPU.Build.0 = Release|Any CPU
+		{D8F9BC40-1518-4341-A3B0-508EBAA1F540}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8F9BC40-1518-4341-A3B0-508EBAA1F540}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8F9BC40-1518-4341-A3B0-508EBAA1F540}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8F9BC40-1518-4341-A3B0-508EBAA1F540}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8F9BC40-1518-4341-A3B0-508EBAA1F540}.SystemTest|Any CPU.ActiveCfg = Release|Any CPU
+		{D8F9BC40-1518-4341-A3B0-508EBAA1F540}.SystemTest|Any CPU.Build.0 = Release|Any CPU
+		{8D9D81D8-238B-49BE-8DA0-2D06B000FA69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D9D81D8-238B-49BE-8DA0-2D06B000FA69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D9D81D8-238B-49BE-8DA0-2D06B000FA69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D9D81D8-238B-49BE-8DA0-2D06B000FA69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D9D81D8-238B-49BE-8DA0-2D06B000FA69}.SystemTest|Any CPU.ActiveCfg = Release|Any CPU
+		{8D9D81D8-238B-49BE-8DA0-2D06B000FA69}.SystemTest|Any CPU.Build.0 = Release|Any CPU
+		{C233BF12-0D6D-49CF-92EE-39E84D03800E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C233BF12-0D6D-49CF-92EE-39E84D03800E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C233BF12-0D6D-49CF-92EE-39E84D03800E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C233BF12-0D6D-49CF-92EE-39E84D03800E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C233BF12-0D6D-49CF-92EE-39E84D03800E}.SystemTest|Any CPU.ActiveCfg = Release|Any CPU
+		{C233BF12-0D6D-49CF-92EE-39E84D03800E}.SystemTest|Any CPU.Build.0 = Release|Any CPU
+		{C9FF9376-D992-4079-A7EC-BB3CF0827EB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9FF9376-D992-4079-A7EC-BB3CF0827EB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9FF9376-D992-4079-A7EC-BB3CF0827EB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9FF9376-D992-4079-A7EC-BB3CF0827EB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9FF9376-D992-4079-A7EC-BB3CF0827EB4}.SystemTest|Any CPU.ActiveCfg = Release|Any CPU
+		{C9FF9376-D992-4079-A7EC-BB3CF0827EB4}.SystemTest|Any CPU.Build.0 = Release|Any CPU
+		{F581EFBF-8BEC-4C7B-B919-F1B35D28C2D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F581EFBF-8BEC-4C7B-B919-F1B35D28C2D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F581EFBF-8BEC-4C7B-B919-F1B35D28C2D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F581EFBF-8BEC-4C7B-B919-F1B35D28C2D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F581EFBF-8BEC-4C7B-B919-F1B35D28C2D3}.SystemTest|Any CPU.ActiveCfg = Release|Any CPU
+		{F581EFBF-8BEC-4C7B-B919-F1B35D28C2D3}.SystemTest|Any CPU.Build.0 = Release|Any CPU
+		{9E4DB995-FE05-48CB-8F51-3B032D5B7DC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E4DB995-FE05-48CB-8F51-3B032D5B7DC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E4DB995-FE05-48CB-8F51-3B032D5B7DC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E4DB995-FE05-48CB-8F51-3B032D5B7DC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E4DB995-FE05-48CB-8F51-3B032D5B7DC6}.SystemTest|Any CPU.ActiveCfg = Release|Any CPU
+		{9E4DB995-FE05-48CB-8F51-3B032D5B7DC6}.SystemTest|Any CPU.Build.0 = Release|Any CPU
+		{7D8796FD-343E-4ED9-BEF3-CC726642F7B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D8796FD-343E-4ED9-BEF3-CC726642F7B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D8796FD-343E-4ED9-BEF3-CC726642F7B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D8796FD-343E-4ED9-BEF3-CC726642F7B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D8796FD-343E-4ED9-BEF3-CC726642F7B6}.SystemTest|Any CPU.ActiveCfg = Release|Any CPU
+		{7D8796FD-343E-4ED9-BEF3-CC726642F7B6}.SystemTest|Any CPU.Build.0 = Release|Any CPU
+		{F2C9CDC1-B49B-4442-A994-60276BA834EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2C9CDC1-B49B-4442-A994-60276BA834EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2C9CDC1-B49B-4442-A994-60276BA834EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2C9CDC1-B49B-4442-A994-60276BA834EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2C9CDC1-B49B-4442-A994-60276BA834EC}.SystemTest|Any CPU.ActiveCfg = Release|Any CPU
+		{F2C9CDC1-B49B-4442-A994-60276BA834EC}.SystemTest|Any CPU.Build.0 = Release|Any CPU
+		{3200B4CF-2109-44AA-8524-7C26ACB06D02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3200B4CF-2109-44AA-8524-7C26ACB06D02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3200B4CF-2109-44AA-8524-7C26ACB06D02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3200B4CF-2109-44AA-8524-7C26ACB06D02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3200B4CF-2109-44AA-8524-7C26ACB06D02}.SystemTest|Any CPU.ActiveCfg = Release|Any CPU
+		{3200B4CF-2109-44AA-8524-7C26ACB06D02}.SystemTest|Any CPU.Build.0 = Release|Any CPU
+		{7BCFA541-C1B6-4CF7-AD88-80F3B2A0641D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BCFA541-C1B6-4CF7-AD88-80F3B2A0641D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BCFA541-C1B6-4CF7-AD88-80F3B2A0641D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BCFA541-C1B6-4CF7-AD88-80F3B2A0641D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BCFA541-C1B6-4CF7-AD88-80F3B2A0641D}.SystemTest|Any CPU.ActiveCfg = Release|Any CPU
+		{7BCFA541-C1B6-4CF7-AD88-80F3B2A0641D}.SystemTest|Any CPU.Build.0 = Release|Any CPU
+		{ACE75C9F-52F1-4C4F-BAF1-73A15DCC47E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACE75C9F-52F1-4C4F-BAF1-73A15DCC47E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACE75C9F-52F1-4C4F-BAF1-73A15DCC47E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACE75C9F-52F1-4C4F-BAF1-73A15DCC47E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACE75C9F-52F1-4C4F-BAF1-73A15DCC47E2}.SystemTest|Any CPU.ActiveCfg = Release|Any CPU
+		{ACE75C9F-52F1-4C4F-BAF1-73A15DCC47E2}.SystemTest|Any CPU.Build.0 = Release|Any CPU
+		{5C9E6EB5-BDD4-4229-82E5-624F3CC7C73E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C9E6EB5-BDD4-4229-82E5-624F3CC7C73E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C9E6EB5-BDD4-4229-82E5-624F3CC7C73E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C9E6EB5-BDD4-4229-82E5-624F3CC7C73E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C9E6EB5-BDD4-4229-82E5-624F3CC7C73E}.SystemTest|Any CPU.ActiveCfg = Release|Any CPU
+		{5C9E6EB5-BDD4-4229-82E5-624F3CC7C73E}.SystemTest|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{287A6D79-194A-4ED9-90B0-14629080D5E3} = {C02449F8-CCDE-4D27-84CD-E4743FE5F56D}
+		{212F28C8-4E4B-4DE1-A572-0980C45D334B} = {C02449F8-CCDE-4D27-84CD-E4743FE5F56D}
+		{F3DFB331-7830-4C80-8D72-8996B2524031} = {4B5AAD39-DE3E-4FE5-87BB-2A111AE23E75}
+		{44D95CCE-76F2-4D17-AC3F-6A52207CDBDB} = {4B5AAD39-DE3E-4FE5-87BB-2A111AE23E75}
+		{26752540-B6C5-41BE-99A9-23EA3DB6D05B} = {4B5AAD39-DE3E-4FE5-87BB-2A111AE23E75}
+		{FF630140-8B3D-496A-B6ED-BCFC618A34CA} = {4B5AAD39-DE3E-4FE5-87BB-2A111AE23E75}
+		{4CDDBFEF-CF47-4EE3-B8F1-FB11CD94D412} = {4B5AAD39-DE3E-4FE5-87BB-2A111AE23E75}
+		{66D72D78-84B2-47F4-A702-24CDF11F2D0E} = {4B5AAD39-DE3E-4FE5-87BB-2A111AE23E75}
+		{7B5549AC-2CF6-4362-A947-D0E011CB1353} = {E1C795BF-6369-42EF-9498-B3860DED79C6}
+		{79D0E9A8-555C-4FEA-9804-3F8C9C6C8DF7} = {E1C795BF-6369-42EF-9498-B3860DED79C6}
+		{20ECC572-F1FC-452A-98E0-D49B4B0A132B} = {E1C795BF-6369-42EF-9498-B3860DED79C6}
+		{66337F4B-436C-4988-8A00-7D92500E10C8} = {4B5AAD39-DE3E-4FE5-87BB-2A111AE23E75}
+		{0C7290E1-717B-4143-A63D-879F666B07C7} = {53AEF767-564F-4BB7-B2FC-806A5872FBDD}
+		{F3DA41B0-0B41-4CD5-9C34-8B28EBDB977B} = {E1C795BF-6369-42EF-9498-B3860DED79C6}
+		{01E44BAD-574D-42A4-9F59-0B4E2AE905DA} = {53AEF767-564F-4BB7-B2FC-806A5872FBDD}
+		{7F1B1A3D-1F02-4A68-9ACB-B9609BA02FE2} = {E3B6D81A-C5C3-454E-AE1E-5872DA1259D7}
+		{6A71A923-DE2A-44E5-9406-E65D05F87024} = {E1C795BF-6369-42EF-9498-B3860DED79C6}
+		{D8F9BC40-1518-4341-A3B0-508EBAA1F540} = {F30956D3-BD27-4C99-AE98-4924FFCE846D}
+		{8D9D81D8-238B-49BE-8DA0-2D06B000FA69} = {04D15426-6F5A-4F89-A10A-65CDEC16CF76}
+		{C233BF12-0D6D-49CF-92EE-39E84D03800E} = {9B9BB659-DBC1-45FC-A36A-571A7161A63C}
+		{C9FF9376-D992-4079-A7EC-BB3CF0827EB4} = {E1C795BF-6369-42EF-9498-B3860DED79C6}
+		{F581EFBF-8BEC-4C7B-B919-F1B35D28C2D3} = {E1C795BF-6369-42EF-9498-B3860DED79C6}
+		{9E4DB995-FE05-48CB-8F51-3B032D5B7DC6} = {E1C795BF-6369-42EF-9498-B3860DED79C6}
+		{7D8796FD-343E-4ED9-BEF3-CC726642F7B6} = {E1C795BF-6369-42EF-9498-B3860DED79C6}
+		{F2C9CDC1-B49B-4442-A994-60276BA834EC} = {E1C795BF-6369-42EF-9498-B3860DED79C6}
+		{3200B4CF-2109-44AA-8524-7C26ACB06D02} = {00791E87-5B7B-4091-AF59-9C0C9E4854EF}
+		{7BCFA541-C1B6-4CF7-AD88-80F3B2A0641D} = {00791E87-5B7B-4091-AF59-9C0C9E4854EF}
+		{ACE75C9F-52F1-4C4F-BAF1-73A15DCC47E2} = {00791E87-5B7B-4091-AF59-9C0C9E4854EF}
+		{5C9E6EB5-BDD4-4229-82E5-624F3CC7C73E} = {53AEF767-564F-4BB7-B2FC-806A5872FBDD}
+		{13494BDB-A35A-48AC-BB9D-2CA3A4532B21} = {B16F67E5-E451-409E-9392-2F092AE75EFF}
+		{2CBC2528-AABA-4E37-9615-C33CB6A7A1AF} = {13494BDB-A35A-48AC-BB9D-2CA3A4532B21}
+		{45AAABBC-28AB-44DE-9425-81B1147E72D6} = {13494BDB-A35A-48AC-BB9D-2CA3A4532B21}
+		{4869E695-89B3-4201-B1CD-AFF66DF86267} = {B16F67E5-E451-409E-9392-2F092AE75EFF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.Logging.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.ExceptionHandling.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.ExceptionHandling.Logging.6.0.1304.0\lib\NET45
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 30
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://europevuk231.europe.fs.fujitsu.com:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Fujitsu.AFC.Constants\\Fujitsu.AFC.Constants.csproj
+		SccProjectTopLevelParentUniqueName1 = AFC\u0020Solution.sln
+		SccProjectName1 = Fujitsu.AFC.Constants
+		SccLocalPath1 = Fujitsu.AFC.Constants
+		SccProjectUniqueName2 = Fujitsu.AFC.Core\\Fujitsu.AFC.Core.csproj
+		SccProjectTopLevelParentUniqueName2 = AFC\u0020Solution.sln
+		SccProjectName2 = Fujitsu.AFC.Core
+		SccLocalPath2 = Fujitsu.AFC.Core
+		SccProjectUniqueName3 = Fujitsu.AFC.Data\\Fujitsu.AFC.Data.csproj
+		SccProjectTopLevelParentUniqueName3 = AFC\u0020Solution.sln
+		SccProjectName3 = Fujitsu.AFC.Data
+		SccLocalPath3 = Fujitsu.AFC.Data
+		SccProjectUniqueName4 = Fujitsu.AFC.Enumerations\\Fujitsu.AFC.Enumerations.csproj
+		SccProjectTopLevelParentUniqueName4 = AFC\u0020Solution.sln
+		SccProjectName4 = Fujitsu.AFC.Enumerations
+		SccLocalPath4 = Fujitsu.AFC.Enumerations
+		SccProjectUniqueName5 = Fujitsu.AFC.Extensions\\Fujitsu.AFC.Extensions.csproj
+		SccProjectTopLevelParentUniqueName5 = AFC\u0020Solution.sln
+		SccProjectName5 = Fujitsu.AFC.Extensions
+		SccLocalPath5 = Fujitsu.AFC.Extensions
+		SccProjectUniqueName6 = Fujitsu.AFC.Model\\Fujitsu.AFC.Model.csproj
+		SccProjectTopLevelParentUniqueName6 = AFC\u0020Solution.sln
+		SccProjectName6 = Fujitsu.AFC.Model
+		SccLocalPath6 = Fujitsu.AFC.Model
+		SccProjectUniqueName7 = Fujitsu.AFC.UnitTesting\\Fujitsu.AFC.UnitTesting.csproj
+		SccProjectTopLevelParentUniqueName7 = AFC\u0020Solution.sln
+		SccProjectName7 = Fujitsu.AFC.UnitTesting
+		SccLocalPath7 = Fujitsu.AFC.UnitTesting
+		SccProjectUniqueName8 = Fujitsu.Exceptions.Framework\\Fujitsu.Exceptions.Framework.csproj
+		SccProjectTopLevelParentUniqueName8 = AFC\u0020Solution.sln
+		SccProjectName8 = Fujitsu.Exceptions.Framework
+		SccLocalPath8 = Fujitsu.Exceptions.Framework
+		SccProjectUniqueName9 = Fujitsu.Exceptions.Framework.Tests\\Fujitsu.Exceptions.Framework.Tests.csproj
+		SccProjectTopLevelParentUniqueName9 = AFC\u0020Solution.sln
+		SccProjectName9 = Fujitsu.Exceptions.Framework.Tests
+		SccLocalPath9 = Fujitsu.Exceptions.Framework.Tests
+		SccProjectUniqueName10 = Fujitsu.AFC.Core.Tests\\Fujitsu.AFC.Core.Tests.csproj
+		SccProjectTopLevelParentUniqueName10 = AFC\u0020Solution.sln
+		SccProjectName10 = Fujitsu.AFC.Core.Tests
+		SccLocalPath10 = Fujitsu.AFC.Core.Tests
+		SccProjectUniqueName11 = Fujitsu.AFC.Extenstion.Tests\\Fujitsu.AFC.Extenstion.Tests.csproj
+		SccProjectTopLevelParentUniqueName11 = AFC\u0020Solution.sln
+		SccProjectName11 = Fujitsu.AFC.Extenstion.Tests
+		SccLocalPath11 = Fujitsu.AFC.Extenstion.Tests
+		SccProjectUniqueName12 = Fujitsu.AFC.Windows.Context\\Fujitsu.AFC.Windows.Context.csproj
+		SccProjectTopLevelParentUniqueName12 = AFC\u0020Solution.sln
+		SccProjectName12 = Fujitsu.AFC.Windows.Context
+		SccLocalPath12 = Fujitsu.AFC.Windows.Context
+		SccProjectUniqueName13 = Fujitsu.AFC.Tasks\\Fujitsu.AFC.Tasks.csproj
+		SccProjectTopLevelParentUniqueName13 = AFC\u0020Solution.sln
+		SccProjectName13 = Fujitsu.AFC.Tasks
+		SccLocalPath13 = Fujitsu.AFC.Tasks
+		SccProjectUniqueName14 = Fujitsu.AFC.Tasks.Tests\\Fujitsu.AFC.Tasks.Tests.csproj
+		SccProjectTopLevelParentUniqueName14 = AFC\u0020Solution.sln
+		SccProjectName14 = Fujitsu.AFC.Tasks.Tests
+		SccLocalPath14 = Fujitsu.AFC.Tasks.Tests
+		SccProjectUniqueName15 = Fujitsu.AFC.Tasks.Console\\Fujitsu.AFC.Tasks.Console.csproj
+		SccProjectTopLevelParentUniqueName15 = AFC\u0020Solution.sln
+		SccProjectName15 = Fujitsu.AFC.Tasks.Console
+		SccLocalPath15 = Fujitsu.AFC.Tasks.Console
+		SccProjectUniqueName16 = Fujitsu.AFC.Services\\Fujitsu.AFC.Services.csproj
+		SccProjectTopLevelParentUniqueName16 = AFC\u0020Solution.sln
+		SccProjectName16 = Fujitsu.AFC.Services
+		SccLocalPath16 = Fujitsu.AFC.Services
+		SccProjectUniqueName17 = Fujitsu.AFC.Services.Tests\\Fujitsu.AFC.Services.Tests.csproj
+		SccProjectTopLevelParentUniqueName17 = AFC\u0020Solution.sln
+		SccProjectName17 = Fujitsu.AFC.Services.Tests
+		SccLocalPath17 = Fujitsu.AFC.Services.Tests
+		SccProjectUniqueName18 = Fujitsu.AFC.Operations\\Fujitsu.AFC.Operations.csproj
+		SccProjectTopLevelParentUniqueName18 = AFC\u0020Solution.sln
+		SccProjectName18 = Fujitsu.AFC.Operations
+		SccLocalPath18 = Fujitsu.AFC.Operations
+		SccProjectUniqueName19 = Fujitsu.AFC.Support\\Fujitsu.AFC.Support.csproj
+		SccProjectTopLevelParentUniqueName19 = AFC\u0020Solution.sln
+		SccProjectName19 = Fujitsu.AFC.Support
+		SccLocalPath19 = Fujitsu.AFC.Support
+		SccProjectUniqueName20 = Fujitsu.AFC.Provisioning\\Fujitsu.AFC.Provisioning.csproj
+		SccProjectTopLevelParentUniqueName20 = AFC\u0020Solution.sln
+		SccProjectName20 = Fujitsu.AFC.Provisioning
+		SccLocalPath20 = Fujitsu.AFC.Provisioning
+		SccProjectUniqueName21 = Fujitsu.AFC.Operations.Tests\\Fujitsu.AFC.Operations.Tests.csproj
+		SccProjectTopLevelParentUniqueName21 = AFC\u0020Solution.sln
+		SccProjectName21 = Fujitsu.AFC.Operations.Tests
+		SccLocalPath21 = Fujitsu.AFC.Operations.Tests
+		SccProjectUniqueName22 = Fujitsu.AFC.Provisioning.Tests\\Fujitsu.AFC.Provisioning.Tests.csproj
+		SccProjectTopLevelParentUniqueName22 = AFC\u0020Solution.sln
+		SccProjectName22 = Fujitsu.AFC.Provisioning.Tests
+		SccLocalPath22 = Fujitsu.AFC.Provisioning.Tests
+		SccProjectUniqueName23 = Fujitsu.AFC.Support.Tests\\Fujitsu.AFC.Support.Tests.csproj
+		SccProjectTopLevelParentUniqueName23 = AFC\u0020Solution.sln
+		SccProjectName23 = Fujitsu.AFC.Support.Tests
+		SccLocalPath23 = Fujitsu.AFC.Support.Tests
+		SccProjectUniqueName24 = Fujitsu.AFC.Windows.Context.Tests\\Fujitsu.AFC.Windows.Context.Tests.csproj
+		SccProjectTopLevelParentUniqueName24 = AFC\u0020Solution.sln
+		SccProjectName24 = Fujitsu.AFC.Windows.Context.Tests
+		SccLocalPath24 = Fujitsu.AFC.Windows.Context.Tests
+		SccProjectUniqueName25 = Fujitsu.AFC.Data.Tests\\Fujitsu.AFC.Data.Tests.csproj
+		SccProjectTopLevelParentUniqueName25 = AFC\u0020Solution.sln
+		SccProjectName25 = Fujitsu.AFC.Data.Tests
+		SccLocalPath25 = Fujitsu.AFC.Data.Tests
+		SccProjectUniqueName26 = Fujitsu.AFC.Operations.WindowsService\\Fujitsu.AFC.Operations.WindowsService.csproj
+		SccProjectTopLevelParentUniqueName26 = AFC\u0020Solution.sln
+		SccProjectName26 = Fujitsu.AFC.Operations.WindowsService
+		SccLocalPath26 = Fujitsu.AFC.Operations.WindowsService
+		SccProjectUniqueName27 = Fujitsu.AFC.Support.WindowsService\\Fujitsu.AFC.Support.WindowsService.csproj
+		SccProjectTopLevelParentUniqueName27 = AFC\u0020Solution.sln
+		SccProjectName27 = Fujitsu.AFC.Support.WindowsService
+		SccLocalPath27 = Fujitsu.AFC.Support.WindowsService
+		SccProjectUniqueName28 = Fujitsu.AFC.Provisioning.WindowsService\\Fujitsu.AFC.Provisioning.WindowsService.csproj
+		SccProjectTopLevelParentUniqueName28 = AFC\u0020Solution.sln
+		SccProjectName28 = Fujitsu.AFC.Provisioning.WindowsService
+		SccLocalPath28 = Fujitsu.AFC.Provisioning.WindowsService
+		SccProjectUniqueName29 = Fujitsu.AFC.Tasks.Resources\\Fujitsu.AFC.Tasks.Resources.csproj
+		SccProjectTopLevelParentUniqueName29 = AFC\u0020Solution.sln
+		SccProjectName29 = Fujitsu.AFC.Tasks.Resources
+		SccLocalPath29 = Fujitsu.AFC.Tasks.Resources
+	EndGlobalSection
+EndGlobal

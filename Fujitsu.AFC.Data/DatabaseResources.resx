@@ -1,0 +1,301 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Create_sp_eAspire_AllocateCase" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>stored procedures\create_sp_easpire_allocatecase.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Create_sp_eAspire_AllocatePIN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>stored procedures\create_sp_easpire_allocatepin.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Create_sp_eAspire_ArchiveCase" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>stored procedures\create_sp_easpire_archivecase.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Create_sp_eAspire_CaseUrl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>stored procedures\create_sp_easpire_caseurl.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Create_sp_eAspire_ChangePrimaryProject" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>stored procedures\create_sp_easpire_changeprimaryproject.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Create_sp_eAspire_CloseCase" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>stored procedures\create_sp_easpire_closecase.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Create_sp_eAspire_DeletePIN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>stored procedures\create_sp_easpire_deletepin.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Create_sp_eAspire_GetDictionaryXml" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>stored procedures\create_sp_easpire_getdictionaryxml.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Create_sp_eAspire_MergePIN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>stored procedures\create_sp_easpire_mergepin.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Create_sp_eAspire_MoveCase" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>stored procedures\create_sp_easpire_movecase.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Create_sp_eAspire_PINUrl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>stored procedures\create_sp_easpire_pinurl.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Create_sp_eAspire_RemoveRestrictedUser" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>stored procedures\create_sp_easpire_removerestricteduser.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Create_sp_eAspire_RestrictUser" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>stored procedures\create_sp_easpire_restrictuser.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Create_sp_eAspire_UpdateCaseTitle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>stored procedures\create_sp_easpire_updatecasetitle.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Create_sp_eAspire_UpdateCaseTitleByProject" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>stored procedures\create_sp_easpire_updatecasetitlebyproject.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Create_sp_eAspire_UpdateCaseWithDictionaryValues" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>stored procedures\create_sp_easpire_updatecasewithdictionaryvalues.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Create_sp_eAspire_UpdatePINTitle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>stored procedures\create_sp_easpire_updatepintitle.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Create_sp_eAspire_UpdatePINWithDictionaryValues" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>stored procedures\create_sp_easpire_updatepinwithdictionaryvalues.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
+  <data name="Create_sp_ValidateAvailableSites" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>stored procedures\create_sp_validateavailablesites.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Create_sp_ValidateCaseIdInUse" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>stored procedures\create_sp_validatecaseidinuse.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Create_sp_ValidateCaseIdRequested" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>stored procedures\create_sp_validatecaseidrequested.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Create_sp_ValidateDictionary" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>stored procedures\create_sp_validatedictionary.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Create_sp_ValidateIsPINAwaitingDeletion" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>stored procedures\create_sp_validateispinawaitingdeletion.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Create_sp_ValidateIsPIN_MergeFromPIN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>stored procedures\create_sp_validateispin_mergefrompin.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Create_sp_ValidateIsPIN_MergeToPIN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>stored procedures\create_sp_validateispin_mergetopin.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Create_sp_ValidatePINExists" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>stored procedures\create_sp_validatepinexists.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Create_sp_ValidatePINRequested" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>stored procedures\create_sp_validatepinrequested.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Create_sp_ValidatePIN_ProjectId_Exists" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>stored procedures\create_sp_validatepin_projectid_exists.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Create_vw_eAspireCase" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>views\create_vw_easpirecase.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Create_vw_eAspirePIN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>views\create_vw_easpirepin.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Drop_sp_eAspire_AllocateCase" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>stored procedures\drop_sp_easpire_allocatecase.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Drop_sp_eAspire_AllocatePIN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>stored procedures\drop_sp_easpire_allocatepin.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Drop_sp_eAspire_ArchiveCase" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>stored procedures\drop_sp_easpire_archivecase.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Drop_sp_eAspire_CaseUrl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>stored procedures\drop_sp_easpire_caseurl.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Drop_sp_eAspire_ChangePrimaryProject" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>stored procedures\drop_sp_easpire_changeprimaryproject.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Drop_sp_eAspire_CloseCase" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>stored procedures\drop_sp_easpire_closecase.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Drop_sp_eAspire_DeletePIN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>stored procedures\drop_sp_easpire_deletepin.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Drop_sp_eAspire_GetDictionaryXml" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>stored procedures\drop_sp_easpire_getdictionaryxml.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Drop_sp_eAspire_MergePIN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>stored procedures\drop_sp_easpire_mergepin.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Drop_sp_eAspire_MoveCase" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>stored procedures\drop_sp_easpire_movecase.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Drop_sp_eAspire_PINUrl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>stored procedures\drop_sp_easpire_pinurl.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Drop_sp_eAspire_RemoveRestrictedUser" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>stored procedures\drop_sp_easpire_removerestricteduser.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Drop_sp_eAspire_RestrictUser" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>stored procedures\drop_sp_easpire_restrictuser.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Drop_sp_eAspire_UpdateCaseTitle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>stored procedures\drop_sp_easpire_updatecasetitle.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Drop_sp_eAspire_UpdateCaseTitleByProject" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>stored procedures\drop_sp_easpire_updatecasetitlebyproject.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Drop_sp_eAspire_UpdateCaseWithDictionaryValues" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>stored procedures\drop_sp_easpire_updatecasewithdictionaryvalues.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Drop_sp_eAspire_UpdatePINTitle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>stored procedures\drop_sp_easpire_updatepintitle.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Drop_sp_eAspire_UpdatePINWithDictionaryValues" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>stored procedures\drop_sp_easpire_updatepinwithdictionaryvalues.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Drop_sp_ValidateAvailableSites" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>stored procedures\drop_sp_validateavailablesites.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Drop_sp_ValidateCaseIdInUse" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>stored procedures\drop_sp_validatecaseidinuse.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Drop_sp_ValidateCaseIdRequested" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>stored procedures\drop_sp_validatecaseidrequested.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Drop_sp_ValidateDictionary" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>stored procedures\drop_sp_validatedictionary.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Drop_sp_ValidateIsPINAwaitingDeletion" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>stored procedures\drop_sp_validateispinawaitingdeletion.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Drop_sp_ValidateIsPIN_MergeFromPIN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>stored procedures\drop_sp_validateispin_mergefrompin.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Drop_sp_ValidateIsPIN_MergeToPIN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>stored procedures\drop_sp_validateispin_mergetopin.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Drop_sp_ValidatePINExists" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>stored procedures\drop_sp_validatepinexists.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Drop_sp_ValidatePINRequested" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>stored procedures\drop_sp_validatepinrequested.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Drop_sp_ValidatePIN_ProjectId_Exists" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>stored procedures\drop_sp_validatepin_projectid_exists.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Drop_vw_eAspireCase" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>views\drop_vw_easpirecase.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="Drop_vw_eAspirePIN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>views\drop_vw_easpirepin.sql;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+</root>

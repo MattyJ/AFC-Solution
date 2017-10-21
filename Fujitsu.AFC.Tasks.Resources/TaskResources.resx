@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Audit_AllocateCase" xml:space="preserve">
+    <value>PIN {0} CaseID {1} CaseTitle {2}</value>
+  </data>
+  <data name="Audit_AllocatePin" xml:space="preserve">
+    <value>PIN {0} Site {1}</value>
+  </data>
+  <data name="Audit_ArchiveCase" xml:space="preserve">
+    <value>PIN {0} Case ID {1} Case {2}</value>
+  </data>
+  <data name="Audit_CaseSiteProvisioning_RootSiteCreated" xml:space="preserve">
+    <value>{0} Root Site Created</value>
+  </data>
+  <data name="Audit_CaseSiteProvisioning_SubSiteCreated" xml:space="preserve">
+    <value>{0} Site Created</value>
+  </data>
+  <data name="Audit_ChangePrimaryProject" xml:space="preserve">
+    <value>PIN {0} Current Project ID {1} New Project ID {2}</value>
+  </data>
+  <data name="Audit_CloseCase" xml:space="preserve">
+    <value>PIN {0} Case ID {1} Case {2} </value>
+  </data>
+  <data name="Audit_DeleteCase" xml:space="preserve">
+    <value>PIN {0} Case ID {1} Case {2}</value>
+  </data>
+  <data name="Audit_DeletePin" xml:space="preserve">
+    <value>PIN Site {0} Deleted</value>
+  </data>
+  <data name="Audit_MergePin" xml:space="preserve">
+    <value>From PIN {0} To PIN {1}</value>
+  </data>
+  <data name="Audit_MoveCase" xml:space="preserve">
+    <value>PIN {0} CaseID {1} CurrentProjectID {2} NewProjectID {3}</value>
+  </data>
+  <data name="Audit_RemoveRestrictedUser" xml:space="preserve">
+    <value>PIN {0}</value>
+  </data>
+  <data name="Audit_RestrictUser" xml:space="preserve">
+    <value>PIN {0}</value>
+  </data>
+  <data name="Audit_UpdateCaseTitle" xml:space="preserve">
+    <value>PIN {0} Case ID {1} Case Title updated from {2} to Case Title {3}</value>
+  </data>
+  <data name="Audit_UpdateCaseTitleByProject" xml:space="preserve">
+    <value>ProjectID {0} PIN{1} Case ID {2} Case Title updated from {3} to CaseTitle {4}</value>
+  </data>
+  <data name="Audit_UpdateCaseWithDictionaryValues" xml:space="preserve">
+    <value>PIN {0} Case ID {0} Dictionary Values Updated</value>
+  </data>
+  <data name="Audit_UpdatePinWithDictionaryValues" xml:space="preserve">
+    <value>PIN {0} Dictionary Values Updated.</value>
+  </data>
+  <data name="Audit_UpdateServiceUserTitle" xml:space="preserve">
+    <value>PIN {0} Service User Title updated from {1} to Service User Title {2}</value>
+  </data>
+  <data name="ConfigurationFile_InvalidRunTime" xml:space="preserve">
+    <value>The configuration file setting 'ReportWindowStartTime' is not valid. Use 24hr clock format e.g. 16:30:00.</value>
+  </data>
+  <data name="ConfigurationFile_SettingMissing" xml:space="preserve">
+    <value>The configuration file setting [{0}] has not been supplied or is invalid.</value>
+  </data>
+  <data name="OperationsTaskRequest_CaseDoesNotExistForSpecifiedProjectId" xml:space="preserve">
+    <value>OperationTaskRequest - Task [{0}] A Project does not exist for specified ProjectID [{1}]</value>
+  </data>
+  <data name="OperationsTaskRequest_CaseDoesNotExistForTheSpecifiedProjectIdOnThePin" xml:space="preserve">
+    <value>OperationTaskRequest - Task [{0}] No Project exists on PIN [{1}] for ProjectID [{2}]</value>
+  </data>
+  <data name="OperationsTaskRequest_CaseIdAlreadyExists" xml:space="preserve">
+    <value>OperationTaskRequest - Task [{0}] PIN [{1}] CaseID [{2}] already exists.</value>
+  </data>
+  <data name="OperationsTaskRequest_CaseIdDoesNotExist" xml:space="preserve">
+    <value>OperationTaskRequest - Task [{0}] PIN [{1}] CaseID [{2}] does not exist.</value>
+  </data>
+  <data name="OperationsTaskRequest_CurrentProjectIsNotAssignedToTheCase" xml:space="preserve">
+    <value>OperationTaskRequest - Task [{0}] Current ProjectID [{1}] is not assigned to the specified CaseID [{2}].</value>
+  </data>
+  <data name="OperationsTaskRequest_InvalidDictionaryXML" xml:space="preserve">
+    <value>OperationTaskRequest - Task [{0}] PIN [{1}] Invalid Dictionary XML.</value>
+  </data>
+  <data name="OperationsTaskRequest_InvalidDictionaryXMLWithoutPin" xml:space="preserve">
+    <value>OperationTaskRequest - Task [{0}] ProjectID [{1}] Invalid Dictionary XML.</value>
+  </data>
+  <data name="OperationsTaskRequest_InvalidRequestInvalidTaskName" xml:space="preserve">
+    <value>OperationTaskRequest - Invalid Request Task Name [{0}]</value>
+  </data>
+  <data name="OperationsTaskRequest_InvalidRequestNoCaseId" xml:space="preserve">
+    <value>OperationTaskRequest - Invalid Request - No CaseID specified on Task [{0}] for PIN [{1}]</value>
+  </data>
+  <data name="OperationsTaskRequest_InvalidRequestNoCaseTitle" xml:space="preserve">
+    <value>OperationTaskRequest - Invalid Request - No CaseTitle specified on Task [{0}] for PIN [{1}] CaseID [{2}]</value>
+  </data>
+  <data name="OperationsTaskRequest_InvalidRequestNoCurrentProjectId" xml:space="preserve">
+    <value>OperationTaskRequest - Invalid Request - No Current ProjectID specified on Task [{0}] for PIN [{1}]</value>
+  </data>
+  <data name="OperationsTaskRequest_InvalidRequestNoDictionaryXML" xml:space="preserve">
+    <value>OperationTaskRequest - Invalid Request - Task [{0}] No Dictionary has been specified</value>
+  </data>
+  <data name="OperationsTaskRequest_InvalidRequestNoIsPrimary" xml:space="preserve">
+    <value>OperationTaskRequest - Invalid Request - No IsPrimary specified on Task [{0}] for PIN [{1}] CaseID [{2}]</value>
+  </data>
+  <data name="OperationsTaskRequest_InvalidRequestNoNewProjectId" xml:space="preserve">
+    <value>OperationTaskRequest - Invalid Request - No New ProjectID specified on Task [{0}] for PIN [{1}]</value>
+  </data>
+  <data name="OperationsTaskRequest_InvalidRequestNoPin" xml:space="preserve">
+    <value>OperationTaskRequest - Invalid Request - No PIN value specified on Task [{0}]</value>
+  </data>
+  <data name="OperationsTaskRequest_InvalidRequestNoProjectId" xml:space="preserve">
+    <value>OperationTaskRequest - Invalid Request - No ProjectID specified on Task [{0}] for PIN [{1}]</value>
+  </data>
+  <data name="OperationsTaskRequest_InvalidRequestNoProjectIdWithoutPin" xml:space="preserve">
+    <value>OperationTaskRequest - Invalid Request - No ProjectID specified on Task [{0}]</value>
+  </data>
+  <data name="OperationsTaskRequest_InvalidRequestNoProjectName" xml:space="preserve">
+    <value>OperationTaskRequest - Invalid Request - No ProjectName specified on Task [{0}] ProjectID [{1}]</value>
+  </data>
+  <data name="OperationsTaskRequest_InvalidRequestNoSiteTitle" xml:space="preserve">
+    <value>OperationTaskRequest - Invalid Request - No Site Title specified on Task [{0}] for PIN [{1}]</value>
+  </data>
+  <data name="OperationsTaskRequest_MergePinRequestPending" xml:space="preserve">
+    <value>OperationTaskRequest - Task [{0}] PIN [{1}] MergePIN request pending.</value>
+  </data>
+  <data name="OperationsTaskRequest_NoUnallocatedSitesAvailable" xml:space="preserve">
+    <value>OperationTaskRequest - Task [{0}] PIN  [{1}] No Unallocated Sites Available.</value>
+  </data>
+  <data name="OperationsTaskRequest_PinAlreadyExists" xml:space="preserve">
+    <value>OperationTaskRequest - Task [{0}] PIN [{1}] already exists.</value>
+  </data>
+  <data name="OperationsTaskRequest_PinDoesNotExist" xml:space="preserve">
+    <value>OperationTaskRequest - Task [{0}] PIN [{1}] does not exist.</value>
+  </data>
+  <data name="OperationsTaskRequest_PinDoesNotExistForTheSpecifiedCase" xml:space="preserve">
+    <value>OperationTaskRequest - Task [{0}] PIN [{1}] does not exist for the specified CaseID [{2}]</value>
+  </data>
+  <data name="OperationsTaskRequest_PinRequestPending" xml:space="preserve">
+    <value>OperationTaskRequest - Task [{0}] PIN [{1}] request pending.</value>
+  </data>
+  <data name="ProvisioningTaskRequest_InvalidRequestInvalidTaskName" xml:space="preserve">
+    <value>ProvisioningTaskRequest - Invalid Request Task Name [{0}]</value>
+  </data>
+  <data name="SupportTaskRequest_InvalidRequestInvalidTaskName" xml:space="preserve">
+    <value>SupportTaskRequest - Invalid Request Task Name [{0}]</value>
+  </data>
+  <data name="UnexpectedApplicationError" xml:space="preserve">
+    <value>{0}TaskRequest - An unexpected error has occurred please check the Application Event Log for further details.</value>
+  </data>
+  <data name="UnexpectedApplicationErrorInstanceHandlingId" xml:space="preserve">
+    <value>OperationTaskRequest - An unexpected error has occurred please check the Application Event Log using HandlingInstanceId [{0}] for further details.</value>
+  </data>
+</root>

@@ -1,0 +1,44 @@
+﻿
+enable-migrations -ContextTypeName AFCDataContext -MigrationsDirectory Migrations\AFC
+
+
+add-migration -ConfigurationTypeName Fujitsu.AFC.Data.Migrations.AFC.Configuration "ProjectNameColumnAdded"
+update-database -ConfigurationTypeName Fujitsu.AFC.Data.Migrations.AFC.Configuration
+
+
+Reset The Database
+==================
+update-database -TargetMigration $InitialDatabase -ConfigurationTypeName Fujitsu.AFC.Data.Migrations.AFC.Configuration
+
+
+Stored Procedures
+=================
+1. Add a create and drop script to the Stored Procedures folder.
+2. Add the files to the DatabaseResources file
+3. Create an empty migration and add the create and drop to up and down migrations respectively.
+
+
+Roll Back Migration
+===================
+1. Get all applied:
+		Get-Migrations -ConfigurationTypeName Fujitsu.AFC.Data.Migrations.AFC.Configuration
+2. Then update data to required version:
+		update-database -ConfigurationTypeName Fujitsu.AFC.Data.Migrations.AFC.Configuration -TargetMigration:"CategoryIdIsLong"
+
+Generate Scripts For Production Release
+=======================================
+
+Full Script
+-----------
+
+Update-Database -Script -SourceMigration:$InitialDatabase -ConfigurationTypeName Fujitsu.AFC.Data.Migrations.AFC.Configuration
+
+Incremental Scripts
+-------------------
+
+Update-Database -Script -SourceMigration:'201607220749133_SiteDictionaryColumnAdded.cs' -TargetMigration:'201609121300156_InsertMaximumFileSizeMbParameter.cs' -ConfigurationTypeName Fujitsu.AFC.Data.Migrations.AFC.Configuration
+
+Regenereate Initial Create Script including Stored Procedures and View
+----------------------------------------------------------------------
+
+Update-Database -Script -SourceMigration:$InitialDatabase -TargetMigration:'201607220749133_SiteDictionaryColumnAdded.cs' -ConfigurationTypeName Fujitsu.AFC.Data.Migrations.AFC.Configuration

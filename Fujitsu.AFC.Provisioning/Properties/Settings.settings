@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Fujitsu.AFC.Provisioning.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ProvisioningWindowStartTime" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">22:00:00</Value>
+    </Setting>
+    <Setting Name="ProvisioningWindowEndTime" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">06:00:00</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
